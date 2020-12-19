@@ -74,7 +74,7 @@ A Sequence to Sequence setup was applied. The melody was provided and the model 
 
 ### Melody Generation:
 
-A motif of music is required to generate the both new music and piano accompliment for music-transfomer model. I therefore generate single-line melody in GarageBand and converted the loop.aif file into .midi file use the script by https://larkob.github.io/GB2MIDI/index.html.
+A motif of music is required to generate the both new music and piano accompaniment for music-transfomer model. I therefore generate single-line melody in GarageBand and converted the loop.aif file into .midi file use the script by https://larkob.github.io/GB2MIDI/index.html.
 
 1. #### Generate music pitch and timing in Garageband
 
@@ -82,13 +82,82 @@ A motif of music is required to generate the both new music and piano accomplime
 
    ![Generation of melody line in GarageBand](./img/1.png "Generation of melody line in GarageBand")
 
-2. #### Convert stor
+2. #### Convert stored .aid GarageBand loop file into midi file using the perl script from  https://larkob.github.io/GB2MIDI/index.html.
+
+   ![Generation of melody line in GarageBand](./img/2.png "Generation of melody line in GarageBand")
+
+3. #### Use the generate midi to run through the collab notebook provided by the google magenta team
+
+   ![Generation of melody line in GarageBand](./img/3.png "Generation of melody line in GarageBand")
 
 
 
+### Result 
+
+> Below I generated the accompaniment and extended melody for three times, and select the best version of my musical taste
+>
+> Let's have a look at how good transformer model performed each task:
 
 
 
+#### Original Midi Audio Melody Line
+
+- GFRIEND - Rough
+
+  - <audio src="/Users/changhua/Desktop/music-transformer/rough/rough_aligned.mp3"></audio>
+
+- GFRIEND - Me Gustas Tu
+
+  - <audio src="/Users/changhua/Desktop/music-transformer/gustas/gus.mp3"></audio>
+
+- Eason Chen
+
+  - 
+    <audio src="/Users/changhua/Desktop/music-transformer/eason/eason.mp3"></audio>
 
 
+
+#### The Midi Audio for continuition 
+
+- GFRIEND - Rough
+
+  - <audio src="/Users/changhua/Desktop/music-transformer/rough/continuation.mp3"></audio>
+
+- GFRIEND - Me Gustas Tu
+
+  - <audio src="/Users/changhua/Desktop/music-transformer/gustas/continuation.mp3"></audio>
+
+- Eason Chen
+
+  - <audio src="/Users/changhua/Desktop/music-transformer/eason/continuation.mp3"></audio>
+
+
+
+#### The Midi Audio for accompaniment
+
+- GFRIEND - Rough
+
+  - <audio src="/Users/changhua/Desktop/music-transformer/rough/accompaniment.mp3"></audio>
+
+- GFRIEND - Me Gustas Tu
+
+  - <audio src="/Users/changhua/Desktop/music-transformer/gustas/accompaniment.mp3"></audio>
+
+- Eason Chen
+
+  - <audio src="/Users/changhua/Desktop/music-transformer/eason/accompaniment.mp3"></audio>
+
+
+
+### Brief Analysis of the produced result
+
+##### Piano Continuition:
+
+> We selected three pop songs here, and there are lots of repetitive patterns here. The music transformer model was primarily trained on piano pieces, and the melody line may be more diverse and less repetitive. As a result, the generated continuition also contains a lot of repetitive pattern and not so pleasantly formulated. To me, the music transformer model does not acheive acceptable level of production.
+
+
+
+##### Piano Accompaniment:
+
+> For music accompaniment, the model could successfully identify the tempo, measure and produced similar chord progression as the original song. The accompaniment is surprisingly good and is beyond my expectation :)
 
