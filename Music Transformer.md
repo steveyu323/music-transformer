@@ -82,7 +82,7 @@ A motif of music is required to generate the both new music and piano accompanim
 
    ![Generation of melody line in GarageBand](./img/1.png "Generation of melody line in GarageBand")
 
-2. #### Convert stored .aid GarageBand loop file into midi file using the perl script from  https://larkob.github.io/GB2MIDI/index.html.
+2. #### Convert stored .aif GarageBand loop file into midi file using the perl script from  https://larkob.github.io/GB2MIDI/index.html.
 
    ![Generation of melody line in GarageBand](./img/2.png "Generation of melody line in GarageBand")
 
@@ -104,16 +104,15 @@ A motif of music is required to generate the both new music and piano accompanim
 
 - GFRIEND - Rough
 
-  - <audio src="/Users/changhua/Desktop/music-transformer/rough/rough_aligned.mp3"></audio>
+  - <audio src="./rough/rough_aligned.mp3"></audio>
 
 - GFRIEND - Me Gustas Tu
 
-  - <audio src="/Users/changhua/Desktop/music-transformer/gustas/gus.mp3"></audio>
+  - <audio src="./gustas/gus.mp3"></audio>
 
 - Eason Chen
 
-  - 
-    <audio src="/Users/changhua/Desktop/music-transformer/eason/eason.mp3"></audio>
+  - <audio src="./eason/eason.mp3"></audio>
 
 
 
@@ -121,15 +120,15 @@ A motif of music is required to generate the both new music and piano accompanim
 
 - GFRIEND - Rough
 
-  - <audio src="/Users/changhua/Desktop/music-transformer/rough/continuation.mp3"></audio>
+  - <audio src="./rough/continuation.mp3"></audio>
 
 - GFRIEND - Me Gustas Tu
 
-  - <audio src="/Users/changhua/Desktop/music-transformer/gustas/continuation.mp3"></audio>
+  - <audio src="./gustas/continuation.mp3"></audio>
 
 - Eason Chen
 
-  - <audio src="/Users/changhua/Desktop/music-transformer/eason/continuation.mp3"></audio>
+  - <audio src="./eason/continuation.mp3"></audio>
 
 
 
@@ -137,15 +136,15 @@ A motif of music is required to generate the both new music and piano accompanim
 
 - GFRIEND - Rough
 
-  - <audio src="/Users/changhua/Desktop/music-transformer/rough/accompaniment.mp3"></audio>
+  - <audio src="./rough/accompaniment.mp3"></audio>
 
 - GFRIEND - Me Gustas Tu
 
-  - <audio src="/Users/changhua/Desktop/music-transformer/gustas/accompaniment.mp3"></audio>
+  - <audio src="./gustas/accompaniment.mp3"></audio>
 
 - Eason Chen
 
-  - <audio src="/Users/changhua/Desktop/music-transformer/eason/accompaniment.mp3"></audio>
+  - <audio src="./eason/accompaniment.mp3"></audio>
 
 
 
